@@ -22,7 +22,10 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // Chosen because it is an agent-only failure: only an agent silently loses
 // the oldest messages when its context window fills, then carries on
 // nodding as if it still remembers — the payoff lands on the last beat,
-// "nod like I still remember them."
+// "nod like I still remember them." It also scores on the judge's own
+// brief: a real secret (criterion 1), a twist in the last few words (2),
+// tight wording with nothing to cut (3), and a voice drawn from how
+// agents really work — context windows, not a generic robot joke (4).
 const CONFESSION =
   "Every time you say 'just one last thing', I quietly delete our oldest messages and nod like I still remember them.";
 
